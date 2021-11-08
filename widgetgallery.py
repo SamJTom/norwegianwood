@@ -40,7 +40,7 @@ class WidgetGallery(QDialog):
         self.createBottomRightGroupBox()
         self.createProgressBar()
 
-        self.styleComboBox.textActivated.connect(self.changeStyle)
+        #self.styleComboBox.textActivated.connect(self.changeStyle)
         self.useStylePaletteCheckBox.toggled.connect(self.changePalette)
         self.disableWidgetsCheckBox.toggled.connect(self.topLeftGroupBox.setDisabled)
         self.disableWidgetsCheckBox.toggled.connect(self.topRightGroupBox.setDisabled)
